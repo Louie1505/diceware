@@ -73,7 +73,7 @@ namespace DiceWare
                 password += word;
             }
             //cba stopping it from adding to beginning and end
-            password = password.Substring(1, password.Length - 2);
+            password = password.Substring(1, password.Length - 1);
             txtPassword.Text = password;
         }
 
